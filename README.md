@@ -89,8 +89,9 @@ To convert text into numerical data that machine learning models can process.Rep
 To store the cleaned and processed data for further analysis or model training. This ensures that preprocessing does not have to be repeated each time the model is trained.
 
 ### **Tools and Modules Used**
-- **Pandas (`df.to_csv()`)**: Saves the processed dataset as a CSV file, allowing easy access for future use.
+- **Pandas (`vec_matrix.to_pickle`)**: Saves the processed dataset as a pickle file, or better preservation of sparse data.
 
-Dense matrix Created and Your dataset is now clean, structured, and ready for machine learning models. Saved the TF-IDF Vectorized csv as tfidf_matrix.csv 
+Dense matrix Created and Your dataset is now clean, structured, and ready for machine learning models. Saved the TF-IDF Vectorized csv as tfidf_matrix.pkl
+
 
 
